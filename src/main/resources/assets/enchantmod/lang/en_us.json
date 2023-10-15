@@ -2,6 +2,7 @@
 
   "itemGroup.enchantmod": "Enchanted Mod Items",
 
+  "enchantment.enchantmod.bridge": "Bridging",
 
   "__comment__": "lang json loads important names"
 }

@@ -1,6 +1,8 @@
 package com.tardisgallifrey.enchantmod; //our mod java package
 
 //Imports needed for classes used below
+import com.tardisgallifrey.enchantmod.Init.BlockInit;
+import com.tardisgallifrey.enchantmod.Init.EnchantmentInit;
 import com.tardisgallifrey.enchantmod.Init.ItemInit;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -35,6 +37,10 @@ public class EnchantModMain {
 
         //register our ITEMS to the event bus
         ItemInit.ITEMS.register(modEventBus);
+
+        EnchantmentInit.ENCHANTMENTS.register(modEventBus);
+
+        BlockInit.BLOCKS.register(modEventBus);
 
         //Register our event bus?? to MinecraftForge
         //Event bus class

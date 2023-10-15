@@ -7,7 +7,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import org.jetbrains.annotations.NotNull;
 
 
 //This is the Item Init(ialization) class
@@ -31,7 +30,7 @@ public class ItemInit {
         }
 
         @Override
-        public @NotNull ItemStack makeIcon() {
+        public ItemStack makeIcon() {
 
             return null;
         }
